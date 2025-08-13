@@ -1,0 +1,1 @@
+DELETE FROM t_temp_rj_allegro_pl_sd WHERE 1=1;

@@ -1,0 +1,3 @@
+UPDATE t_informe_rj_allegro_pl INNER JOIN t_temp_rj_allegro_pl ON t_informe_rj_allegro_pl.indicemd5 = t_temp_rj_allegro_pl.indicemd5 SET t_informe_rj_allegro_pl.impresiones = t_temp_rj_allegro_pl.impresiones, t_informe_rj_allegro_pl.clics = t_temp_rj_allegro_pl.clics, 
+t_informe_rj_allegro_pl.interes = t_temp_rj_allegro_pl.interes, t_informe_rj_allegro_pl.cpc = t_temp_rj_allegro_pl.cpc, 
+t_informe_rj_allegro_pl.ctr = t_temp_rj_allegro_pl.ctr, t_informe_rj_allegro_pl.costo = t_temp_rj_allegro_pl.costo, t_informe_rj_allegro_pl.retorno_inversion = t_temp_rj_allegro_pl.retorno_inversion, t_informe_rj_allegro_pl.pedidos = t_temp_rj_allegro_pl.pedidos, t_informe_rj_allegro_pl.ventas = t_temp_rj_allegro_pl.ventas WHERE 1=1;

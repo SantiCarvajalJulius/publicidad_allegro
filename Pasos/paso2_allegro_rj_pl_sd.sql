@@ -1,0 +1,1 @@
+UPDATE t_temp_rj_allegro_pl_sd SET t_temp_rj_allegro_pl_sd.indicemd5 = MD5(t_temp_rj_allegro_pl_sd.indice) WHERE 1=1;
